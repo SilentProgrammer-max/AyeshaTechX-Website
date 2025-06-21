@@ -956,7 +956,7 @@
     gap: 30px;
     font-family: sans-serif;
     padding-left: 155px;
-    padding-right: 190px;
+    padding-right: 89px;
   }
 
   .home span {
@@ -1054,7 +1054,7 @@
     margin-top: 40px;
     position: relative;
     z-index: 1;
-    margin-right: 160px;
+    margin-right: 94px;
   }
 
   .div::before {
@@ -1224,7 +1224,7 @@
     border: 3px solid #ffffffa6;
     border-radius: 6px;
     height: 510px;
-    width: 300px;
+    width: 324px;
     display: grid;
     background: #0209148a;
     border-left: #020914;
@@ -1264,7 +1264,8 @@
   }
 
   .services p {
-    margin-left: 20px;
+    margin-left: 22px;
+    margin-right: -80px;
   }
 
   .services h3 {
@@ -1303,19 +1304,19 @@
 
   .acard img {
     margin-left: -16px;
-    height: 203px;
+    height: 218px;
     margin-top: -10px;
   }
 
   .bcard img {
     margin-left: -25px;
-    height: 219px;
+    height: 234px;
     margin-top: -20px;
   }
 
   .ccard img {
     margin-left: 6px;
-    width: 292px;
+    width: 313px;
     margin-top: 10.1px;
   }
 
@@ -1327,14 +1328,14 @@
 
   .ecard img {
     margin-left: 11px;
-    width: 279px;
+    width: 305px;
     height: 246px;
     margin-top: -16px;
   }
 
   .fcard img {
     margin-left: 16px;
-    width: 270px;
+    width: 294px;
     margin-top: -10px;
   }
 
@@ -1347,11 +1348,55 @@
 
   .hcard img {
     height: 232px;
-    width: 246px;
+    width: 271px;
     margin-left: 27px;
     margin-top: 2px;
   }
-}
+  .p {
+    margin-right: -100px;
+  }
+  .rew {
+    background-color: #fc6d1a44;
+    padding: 20px;
+    width: 275px;
+    height: 319px;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border: 5px solid black;
+    border-color: #ff5e00d2;
+    border-left: #ff5e00;
+    border-right: #ff5e00;
+  }
+  .cont {
+    margin-left: 98px;
+  }
+  .us {
+    margin-left: 52px;
+  }
+  .contact {
+    margin-top: 147px;
+    padding-top: 129px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    color: white;
+    margin-left: -192px;
+  }
+  .icons {
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    margin-right: 330px;
+    margin-left: 139px;
+  }
+  .reo {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 100px;
+    margin-left: -43px;
+  }
 
 .review {
   color: white;
@@ -1359,27 +1404,6 @@
   background: #0209148a;
   padding: 75px 170px 100px 97px;
   margin-top: 72px;
-}
-
-.reo {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-  margin-top: 100px;
-  margin-left: -30px;
-}
-
-.rew {
-  background-color: #fc6d1a44;
-  padding: 20px;
-  width: 257px;
-  height: 354px;
-  border-top-left-radius: 70px;
-  border-bottom-right-radius: 70px;
-  border: 5px solid black;
-  border-color: #ff5e00d2;
-  border-left: #ff5e00;
-  border-right: #ff5e00;
 }
 .rew h3 {
   display: flex;
@@ -1548,17 +1572,6 @@ select.subject {
 .provided a {
   color: rgba(255, 255, 255, 0.692);
 }
-
-.contact {
-  margin-top: 147px;
-  padding-top: 129px;
-  padding-bottom: 100px;
-  display: flex;
-  justify-content: center;
-  gap: 76px;
-  color: white;
-  margin-left: -192px;
-}
 .ayesha {
   margin-top: 50px;
   margin-left: 444px;
@@ -1632,15 +1645,6 @@ select.subject {
   margin-top: 2px;
   margin-bottom: 10px;
 }
-
-.icons {
-  display: flex;
-  justify-content: left;
-  gap: 15px;
-  margin-right: 330px;
-  margin-left: 95px;
-}
-
 .icons img {
   width: 33px;
   height: 30px;
@@ -1678,7 +1682,7 @@ select.subject {
   transform: scale(1.1);
   filter: brightness(1.1);
 }
-
+}
 @media (max-width: 768px) {
   /* Menu Toggle Icon */
   .menu-toggle {

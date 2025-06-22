@@ -7,4 +7,4 @@ toggle.addEventListener('click', () => {
 });
 
 console.log("Script loaded successfully!");
-// alert("Welcome to AyeshaTech | X")
+alert("Welcome to AyeshaTech | X")

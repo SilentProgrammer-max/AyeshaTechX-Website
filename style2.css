@@ -74,9 +74,9 @@
   }
 
   .search {
-    margin: 0 10px 0 0;
-    order: 1;
-    margin-left: -260px;
+        margin: 0 10px 0 0;
+        order: 1;
+        margin-left: 1px;
   }
 
   .search-icon {
@@ -84,12 +84,12 @@
   }
 
   .search-box {
-    right: -21px;
-    padding: 8px;
-    font-size: 12px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.1);
-    top: 40px;
+        right: -17px;
+        padding: 8px;
+        font-size: 12px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        top: 40px;
   }
 
   .nav-toggle {
